@@ -28,4 +28,5 @@ console.log(`Cloned Array 2: [${array2}]`);
 // let array3 = [...array];
 // array3.push("Spread operator");
 let array3 = [...array,"Spread Operator"];
+
 console.log(`Cloned Array 3: [${array3}]`);
