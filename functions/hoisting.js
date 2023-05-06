@@ -10,4 +10,7 @@ const helloAgain = function(){
     console.log("hello Again");
 }
 
-
+// LET AND CONST ARE BLOCK SCOPE.
+// VAR IS FUNCTION SCOPE 
+// Variable declared with Let and Const can only be used
+// inside block they are initalized
