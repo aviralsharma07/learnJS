@@ -1,6 +1,13 @@
 // The reduce() method returns a single value: the function's accumulated result.
 // The reduce() method does not change the original array.
 
+// accumulator  currentValue  return
+// 23           15            38
+// 38           11            49
+// 49           7             56
+// 56           13            69
+// 69           5             74
+
 const numbers = [23,15,11,7,13,5];
 const sum = numbers.reduce((accumulator,currValue) => {return accumulator+currValue},0);
 console.log(sum);
