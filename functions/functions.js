@@ -17,6 +17,6 @@ const isEven = (number) => {
 }
 console.log(isEven(13));
 
-
+    
 const isOdd = number => number%2 !== 0;
 console.log(isOdd(19));
