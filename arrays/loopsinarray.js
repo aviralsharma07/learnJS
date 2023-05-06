@@ -30,3 +30,16 @@ for (const index in array) {
         break;
     }        
 }
+
+// -----------------------------------------------------------------------------------
+
+// FOR-EACH Function runs a callback function on each element of the array.
+// The callback function accepts: (currentElement, indexofCurrentElement, arrayOfCurrentElement)
+function callback (number,index){
+    console.log(`index is: ${index}, number is ${number}`);
+}
+function multiply(num,index,array){
+    array[index] = num * 2;
+}
+array.forEach(multiply);
+console.log(array);
