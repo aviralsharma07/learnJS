@@ -1,3 +1,5 @@
+// sort() Method make changes to Orignal Array. So clone it before using.
+
 const numbers = [5,9,1200,400,3000];
 console.log(numbers.sort());
 // O/P -> 1200,3000,400,5,9: This o/p because Sort method see elements as strings 
