@@ -15,7 +15,7 @@ console.log(Array.isArray(arr));
 // push(): adds new element to the back of an Array
 // unshift(): adds new element to the beginning of an Array
 
-arr.push("elementAtBack");
+arr.push("elementAtBacEk");
 arr.unshift("elementAtStart");
 console.log(`Array after using Push and Unshift Methods: [${arr}]`);
 

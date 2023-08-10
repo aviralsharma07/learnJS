@@ -1,4 +1,4 @@
-// Cloning: Compy elements of one Array to another new Array.
+// Cloning: Copy elements of one Array to another new Array.
 
 let array = ["Sun", "Mon", "Tue", "Wed", "Thu", "fri", "Sat"];
 console.log(`Orignal Array: [${array}]`)
