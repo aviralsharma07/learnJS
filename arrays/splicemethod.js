@@ -1,5 +1,7 @@
 // splice() Method: (start,delete,insert)
-// delete -> returns the deleted element
+// start -> starting Index to start deleting and inserting from.
+// delete -> returns the deleted elements.
+// delete -> also represent number of elements to delete.
 
 const myArr = ["item1", "item2", "item3", "item4", "item5", "item6", "item7"];
 const deletedElement1 = myArr.splice(1,1);

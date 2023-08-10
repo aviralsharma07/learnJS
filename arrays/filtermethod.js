@@ -1,4 +1,4 @@
-// FILTER METHOD: takes callbacl function as an argument
+// FILTER METHOD: takes callback function as an argument
 // and returns only boolean values array.
 
 const number = [23,10,15,8,18,16,34];

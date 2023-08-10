@@ -5,3 +5,4 @@ const myArray = ["Hello", "Cat", "Dog", "Lion"];
 const islength3 = (str) => {return str.length === 3};
 // const ans = myArray.find(islength3);
 console.log(myArray.find(islength3));
+console.log(myArray.find((str) => {return str.length === 4}));
