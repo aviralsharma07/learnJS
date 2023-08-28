@@ -4,8 +4,10 @@
 const mainHeading = document.getElementById("main-heading");
 console.log(mainHeading);
 
-// 2. Select Element using Query Selector. getElementById can only select using IDs. 
+// getElementById can only select using IDs.
 // Query Selector can select anything from tags, classes and IDs.
+
+// 2. Select Element using Query Selector.
 
 const header = document.querySelector(".header");
 console.log(header);
@@ -14,4 +16,4 @@ console.log(header);
 // other wise it will bring only first e;ement occurence of that class.
 
 const navItem = document.querySelectorAll(".nav-item");
-console.log(navItem); 
+console.log(navItem);
