@@ -1,0 +1,13 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.hexColor {
+  margin-top: 4rem;
+  font-size: 1.25rem;
+  bold: 700;
+}
